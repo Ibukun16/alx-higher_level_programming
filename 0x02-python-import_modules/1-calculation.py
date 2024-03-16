@@ -1,6 +1,7 @@
 #!/usr/bin/python3
+
 if __name__ == "__main__":
-    """"Print the sum, difference, multiplication and division of given integers"""
+    """"Print the sum, difference, multiple and division of integers."""
     from calculator_1 import add, sub, mul, div
 
     a = 10
