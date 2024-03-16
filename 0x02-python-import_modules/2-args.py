@@ -6,7 +6,7 @@ if __name__ == "__main__":
 
     count = len(sys.argv) - 1
 
-    if count <= 1:
+    if count == 1:
         argument = "argument"
     else:
         argument = "arguments"
