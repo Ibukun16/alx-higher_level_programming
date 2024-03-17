@@ -9,7 +9,7 @@ if __name__ == "__main__":
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         sys.exit(1)
 
-    ops = {"+": add, "_": sub, "*":mul, "/":div}
+    ops = {"+": add, "-": sub, "*":mul, "/":div}
     op = sys.argv[2]
     if op not in list(ops.keys()):
         print("Unknown operator. Available operators: +, -, * and /")
