@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
-    """Do basic maths operations with imported functions"""
+    """Do basic maths operations with imported functions."""
     from calculator_1 import add, sub, mul, div
     import sys
 
@@ -9,7 +9,7 @@ if __name__ == "__main__":
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         sys.exit(1)
 
-    ops = {"+": add, "-": sub, "*":mul, "/":div}
+    ops = {"+": add, "-": sub, "*": mul, "/": div}
     op = sys.argv[2]
     if op not in list(ops.keys()):
         print("Unknown operator. Available operators: +, -, * and /")
