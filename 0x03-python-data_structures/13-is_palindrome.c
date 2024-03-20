@@ -7,27 +7,27 @@
  */
 int is_palindrome(listint_t **head)
 {
-	const listint_t *head_cur;
+	const listint_t *cur_head;
 	int len = 0, i = 0, j = 0;
 	int array[10000];
 
-	if (!*head)
+	if (*head == NULL)
 		return (1);
-	head_cur = *head;
-	while (head_cur)
+	cur_head = *head;
+	while (cur_head)
 	{
-		head_cur = head_cur->next;
+		cur_head = cur_head->next;
 		len++;
 	}
 	if (len == 1)
 		return (1);
 
-	head_cur = *head;
-	while (head_cur)
+	cur_head = *head;
+	while (cur_head)
 	{
-		array[i] = head_cur->next;
+		array[i] = cur_head->n;
 		i++;
-		head_cur = head_cur->next;
+		cur_head = cur_head->next;
 	}
 	i--;
 	len--;
