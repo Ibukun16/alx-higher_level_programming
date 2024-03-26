@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 def weight_average(my_list=[]):
-    """A function that returns the weighted average 
-     of all integers in a tuple."""
+    """A function that returns the weighted average
+    of all integers in a tuple."""
     if not my_list:
         return 0
     tot_score = 0
