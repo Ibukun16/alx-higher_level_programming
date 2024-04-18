@@ -2,9 +2,8 @@
 """Task 9 of ALX project (Python inheritance)
 A module that defines a child class as preceding task
 """
-
-
 BaseGeometry = __import__("7-base_geometry").BaseGeometry
+
 
 class Rectangle(BaseGeometry):
     """child class that inherit from the base class"""
