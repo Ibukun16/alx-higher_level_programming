@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 """A Task in ALX Practise Project (Python Inheritance)
-This Task contains a module that defines a function that
-inherit from a parent class named Square"""
 
+This Task contains a module that defines a function that
+inherit from a parent class named Square
+"""
 Square = __import__("10-square").Square
 
 

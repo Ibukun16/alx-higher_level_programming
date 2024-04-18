@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 """A Task in ALX Practise Project (Python Inheritance)
-This Task contains a module that defines a function that
-inherit from a parent class named Rectangle"""
 
+This Task contains a module that defines a function that
+inherit from a parent class named Rectangle
+"""
 Rectangle = __import__("9-rectangle").Rectangle
 
 
