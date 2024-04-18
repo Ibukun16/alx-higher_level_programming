@@ -11,7 +11,7 @@ class Square(Rectangle):
     """Square class inherits from the Rectangle geometry"""
 
     def __init__(self, size):
-        """Initialize a new square based on rectangle a geometry
+        """Initialize a new square based on a rectangle geometry
 
         Arguments:
             size (int): The length of a side of the square
