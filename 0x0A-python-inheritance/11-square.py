@@ -26,4 +26,4 @@ class Square(Square):
 
     def __str__(self):
         """"Description of the square"""
-        return("[Square] {}/{}".format(self.__size, self.__size))
+        return "[Square] {}/{}".format(self.__size, self.__size)
