@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-"""
-ALX Practise project task 0
+"""ALX Practise project task 0 (Python inheritance)
 
 A module that defines object attribute lookup function.
 """
@@ -10,10 +9,10 @@ def lookup(obj):
     """Checkup object's available attributes
 
     Args:
-        Obj - object.
+        Obj: object.
 
     Return:
-        List of available methods and attributes of an object.
+        list: Available methods and attributes of object.
     """
     return dir(obj)
 
