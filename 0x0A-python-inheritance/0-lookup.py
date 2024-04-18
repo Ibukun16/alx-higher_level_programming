@@ -10,9 +10,11 @@ def lookup(obj):
     """
     Checkup object's available attributes
 
-    Args: Obj - object.
+    Args:
+        Obj - object.
 
-    Return: List of available methods and attributes of an object.
+    Return:
+        List of available methods and attributes of an object.
     """
     return dir(obj)
 
