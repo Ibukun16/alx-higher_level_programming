@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 """A Task in ALX Practise Project (Python Inheritance)
 This Task contains a module that defines a function that
-inherit from a parent class named Rectangle"""
+inherit from a parent class named Square"""
 
 
-Rectangle = __import__("9-rectangle").Rectangle
+Square = __import__("10-square").Square
 
-class Square(Rectangle):
+class Square(Square):
     """Square class inherits from the Rectangle geometry"""
 
     def __init__(self, size):

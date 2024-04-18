@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-"""ALX Practise project task 0 
+"""ALX Practise project task 0
 A module that defines an object
 attribute lookup function.
 """
+
 
 def lookup(obj):
     """
@@ -13,5 +14,4 @@ def lookup(obj):
     Return type: List - Available methods and
     attributes of an object.
     """
-
     return dir(obj)

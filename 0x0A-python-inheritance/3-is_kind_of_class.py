@@ -4,6 +4,7 @@ A module that defines a function which confirms an
 object class relationship
 """
 
+
 def is_kind_of_class(obj, a_class):
     """Check if the object is an instance of a class
     or an instance ofthe class inheritance.

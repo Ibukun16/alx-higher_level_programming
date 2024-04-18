@@ -3,6 +3,7 @@
 A module that defines a child class that inherits
 from a parent class."""
 
+
 BaseGeometry = __import__("7-base_geometry").BaseGeometry
 
 class Rectangle(BaseGeometry):
@@ -20,4 +21,3 @@ class Rectangle(BaseGeometry):
         self.__width = width
         self.integer_validator("heigt", height)
         self.__height = height
-

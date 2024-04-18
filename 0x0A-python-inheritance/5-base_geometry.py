@@ -3,6 +3,7 @@
 A module that defines an empty class
 """
 
+
 class BaseGeometry:
     """Do nothing, return empty"""
 

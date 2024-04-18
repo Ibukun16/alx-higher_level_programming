@@ -3,9 +3,10 @@
 A module that defines class which does random task
 """
 
+
 class BaseGeometry:
     """Do some few random things"""
-    
+
     def area(self):
         """Return an Error message"""
         raise Exception("area() is not implemented")
@@ -14,7 +15,7 @@ class BaseGeometry:
         """Determine if a value is an integer
 
         Arguments:
-            name: Name of the object
+            name: Name of the object.
             value (int): The value to validate.
 
         Raises:

@@ -4,10 +4,11 @@ A module that defines a function which confirms an
 object-class relationship
 """
 
+
 def inherits_from(obj, a_class):
     """Check if a given object is an instance of
     a specified class directly or indirectly.
-    
+
     Arguments:
         obj: The given object.
         a_class: The specified classs to find instance from.
