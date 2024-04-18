@@ -3,8 +3,8 @@
 This Task contains a module that defines a function that
 inherit from a parent class named Rectangle"""
 
-
 Rectangle = __import__("9-rectangle").Rectangle
+
 
 class Square(Rectangle):
     """Square class inherits from the Rectangle geometry"""
