@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-"""
-A module that defines an object attribute lookup function.
+"""ALX Practise project task 0 
+A module that defines an object
+attribute lookup function.
 """
 
 def lookup(obj):
@@ -9,7 +10,8 @@ def lookup(obj):
 
     Args: Obj - object.
 
-    Return type: List - Available methods and attributes of an object.
+    Return type: List - Available methods and
+    attributes of an object.
     """
 
     return dir(obj)

@@ -3,10 +3,10 @@
 This Task contains a module that defines a function that
 inherit from a parent list named  base geometry """
 
-Rectangle = __import__("9-Rectangle").Rectangle
+Rectangle = __import__("9-rectangle").Rectangle
 
 class Square(Rectangle):
-    """Square class inherits from the base geometry"""
+    """Square class inherits from the Rectangle geometry"""
     
     def __init__(self, size):
         """Initialize a new square from geometry
