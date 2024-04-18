@@ -4,7 +4,7 @@
 This Task contains a module that defines a function that
 inherit from a parent class named Square
 """
-Square = __import__("9-rectangle").Rectangle
+Rectangle = __import__("9-rectangle").Rectangle
 
 
 class Square(Rectangle):
