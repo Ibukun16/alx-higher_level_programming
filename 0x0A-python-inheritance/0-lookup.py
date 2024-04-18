@@ -7,8 +7,7 @@ A module that defines object attribute lookup function.
 
 
 def lookup(obj):
-    """
-    Checkup object's available attributes
+    """Checkup object's available attributes
 
     Args:
         Obj - object.
