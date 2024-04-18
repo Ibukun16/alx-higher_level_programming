@@ -32,7 +32,7 @@ Testing that MyList inherit from list:
 	True
 
 Instantiating ``MyList`` with no argument, the result will be an empty list
-	>>> new_list = My_List()
+	>>> new_list = MyList()
 	>>> type(new_list)
 	<class '1-my_list.MyList'>
 	
