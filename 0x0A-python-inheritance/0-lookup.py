@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""ALX Practise project task 0
+"""
+ALX Practise project task 0
 A module that defines an object
 attribute lookup function.
 """
