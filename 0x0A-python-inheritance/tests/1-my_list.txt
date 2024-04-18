@@ -8,9 +8,15 @@ A module that defines a class ``MyList`` which inherit from ``list``
 
 Instanstations
 --------------
-
+Instantiating ``MyList`` with no argument, gives an empty list as result
 Import function from the module:
 	>>> MyList = __import__('1-my_list').MyList
+        >>> new_list = MyList()
+        >>> type(new_list)
+        <class '1-my_list.MyList'>
+
+         print(new_list)
+         []
 
 Testing for Module docstring:
 	>>> mod = __import__('1-my_list').__doc__
@@ -39,7 +45,7 @@ Instantiating ``MyList`` with no argument, the result will be an empty list
 	print(new_list)
 	[]
 
-Instantiatiing ``MyList`` with a single argument which must be an iteratable object
+Instantiating ``MyList`` with a single argument which must be an iteratable object
 	>>> new_list = MyList([1, 2, 3])
 	print(new_list)
 	[1, 2, 3]
