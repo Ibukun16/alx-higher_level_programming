@@ -6,13 +6,8 @@ A module that defines object attribute lookup function.
 
 
 def lookup(obj):
-    """Checkup object's available attributes
-
-    Args:
-        Obj: object.
-
-    Return:
-        list: Available methods and attributes of object.
+    """Checkup object available function and return a
+    list of the available methods and attributes found.
     """
     return dir(obj)
 
