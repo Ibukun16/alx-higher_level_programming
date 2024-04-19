@@ -5,7 +5,7 @@ A module that defines class which does random task
 
 
 class BaseGeometry:
-    """Do some few random things"""
+    """Defining the representation of the base geometry"""
 
     def area(self):
         """Return an Error message"""
@@ -15,12 +15,12 @@ class BaseGeometry:
         """Determine if a value is an integer
 
         Arguments:
-            name: Name of the object.
+            name (str): Name of the object.
             value (int): The value to validate.
 
         Raises:
-            TypeError: If ``value`` type is not an integer.
-            ValueError: If ``value`` is less than or equals 0.
+            TypeError: If value type is not an integer.
+            ValueError: If value is less than or equals 0.
         """
 
         if type(value) is not int:

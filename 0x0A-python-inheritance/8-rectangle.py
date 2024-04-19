@@ -3,11 +3,11 @@
 A module that defines a child class that inherits
 from a parent class."""
 
-
 BaseGeometry = __import__("7-base_geometry").BaseGeometry
 
+
 class Rectangle(BaseGeometry):
-    """class that inherits from the BaseGeometry"""
+    """Represent a rectangle that inherits from the BaseGeometry"""
 
     def __init__(self, width, height):
         """Initialize a new rectangle from BaseGeometry
