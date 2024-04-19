@@ -14,4 +14,3 @@ class MyInt(int):
     def __ne__(self, value):
         """ne"""
         return self.real == value
-
