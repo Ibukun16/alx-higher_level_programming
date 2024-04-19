@@ -2,6 +2,7 @@
 """Task 8 of ALX project(python - inheritance)
 A module that defines a child class that inherits
 from a parent class."""
+BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
 
 class Rectangle(BaseGeometry):
