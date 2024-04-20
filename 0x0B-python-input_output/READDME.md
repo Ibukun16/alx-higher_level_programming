@@ -1,0 +1,1 @@
+This folder contains practise projects on input and output  using python programming language. The aim of these exercises is to demostrate the understanding of the use of input and output in python, as well as serialization and deserialization from python to jason and back
