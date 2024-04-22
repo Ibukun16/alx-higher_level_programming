@@ -7,11 +7,11 @@ after each line containing a specific string.
 
 
 def append_after(filename="", search_string="", new_string=""):
-    """Insert a line of text to a file, after each line containing 
+    """Insert a line of text to a file, after each line containing
     specific string.
 
     Arguments:
-        filename (str): The name of the file containing the text to be worked on
+        filename (str): The file having the text to be worked on
 
         search_string (str): The referenced string to search for in the text
 
