@@ -5,7 +5,6 @@ A class function that defines a student class based on Task 10
 """
 
 
-
 class Student:
     """A representation that defines a student class"""
 
