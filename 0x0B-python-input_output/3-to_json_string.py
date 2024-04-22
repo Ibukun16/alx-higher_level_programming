@@ -3,9 +3,8 @@
 
 A function that prints JSON representation of an object (string)
 """
-
-
 import json
+
 
 def to_json_string(my_obj):
     """Return the json representation of the string
@@ -17,4 +16,3 @@ def to_json_string(my_obj):
         The json file
     """
     return json.dumps(my_obj)
-

@@ -11,10 +11,9 @@ def append_write(filename="", text=""):
 
     Arguments:
         filename (str): The path to the file to append
-        
+
         text (str): The destination file receiving the text
     """
-
     with open(filename, "a", encoding="utf-8") as Tmyfile:
         Tmyfile.write(text)
         return len(text)

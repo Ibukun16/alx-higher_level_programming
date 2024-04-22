@@ -4,9 +4,8 @@
 A function that retursn an object (Python data structure)
 represented by a JSON string.
 """
-
-
 import json
+
 
 def from_json_string(my_str):
     """return python data structure from JSON string
