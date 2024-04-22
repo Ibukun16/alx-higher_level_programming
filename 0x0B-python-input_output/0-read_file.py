@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 """Task 0 of ALX Python Input/Output file Project
 
-A function that read a text file (UTF8) and output the result
+A function that read a text file (UTF8) and output the result.
 """
 
 
 def read_file(filename=""):
-    """read a file name and print its content to stdout
+    """Read a file name and print its content to stdout
 
     argument:
         filename (str): The path to the file.
