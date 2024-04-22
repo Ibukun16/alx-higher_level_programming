@@ -15,8 +15,6 @@ def write_file(filename="", text=""):
 
         text (str): The destination file receiving the text
     """
-
     with open(filename, "w", encoding="utf-8") as smyfile:
         smyfile.write(text)
         return len(text)
-
