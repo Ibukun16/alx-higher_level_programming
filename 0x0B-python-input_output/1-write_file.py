@@ -7,7 +7,8 @@ the number of character written
 
 
 def write_file(filename="", text=""):
-    """"Write a string to a text file and print the number of character
+    """"Write a string to a text file and print
+    the number of character
 
     Arguments:
         filename (str): path to the file to write

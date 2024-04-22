@@ -7,7 +7,7 @@ A function that read a text file (UTF-8) and print to stdout.
 
 def read_file(filename=""):
     """read a file name and print its content to stdout
-    
+
     argument:
         filename (str): The path to the file.
     """
