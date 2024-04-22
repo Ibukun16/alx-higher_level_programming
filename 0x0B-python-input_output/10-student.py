@@ -5,7 +5,6 @@ A class that defines student based on Task 9
 """
 
 
-
 class Student:
     """A representation of the class, student"""
 
@@ -27,8 +26,3 @@ class Student:
         if (type(attrs) is list and all(type(mem) == str for mem in attrs)):
             return {mem: getattr(self, mem) for mem in attrs if hasattr(self, mem)}
         return self.__dict__
-
-
-
-
-
