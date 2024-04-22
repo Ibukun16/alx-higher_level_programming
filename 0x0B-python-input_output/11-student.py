@@ -23,7 +23,7 @@ class Student:
         Arguments:
             attrs (list): (Optional) The attributes to be represented
         """
-        if (type(attrs) == list and all(type(mem) == str for mem in attrs)):
+        if (type(attrs) is list and all(type(mem) is str for mem in attrs)):
             return {mem: getattr(self, mem)
                     for mem in attrs if hasattr(self, mem)}
         return self.__dict__
