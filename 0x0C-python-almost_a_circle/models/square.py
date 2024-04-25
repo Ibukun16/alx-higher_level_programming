@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """Task 10 - 19 of ALX unit test project
 
-A module that defines a square class""" 
+A module that defines a square class"""
 from models.rectangle import Rectangle
 
 
@@ -34,7 +34,7 @@ class Square(Rectangle):
         self.height = value
 
     def update(self, *args, **kwargs):
-        """Update the Square to assign an argument to each attribute 
+        """Update the Square to assign an argument to each attribute
         by public method
 
         Args:
