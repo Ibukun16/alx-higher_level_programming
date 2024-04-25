@@ -151,7 +151,7 @@ class Base:
                 list_dicts = csv.DictReader(csvfile,
                                             fieldnames=fieldnames)
                 list_dicts = [dict([key, int(value)] for key,
-                    value in dic.items()) for dic in list_dicts]
+                                   value in dic.items()) for dic in list_dicts]
                 return [cls.create(**dic) for dic in list_dicts]
         except IOError:
             return []
