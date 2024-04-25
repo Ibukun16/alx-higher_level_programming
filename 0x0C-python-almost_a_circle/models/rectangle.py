@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 """Task 2 - 9 & 13 of ALX unit test project
 
-A module that defines a rectangle class"""
+A module that defines a rectangle class
+"""
 from models.base import Base
 
 
