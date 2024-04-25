@@ -27,7 +27,7 @@ class Base:
             id (int): The identity of the new Base
         """
         if id is not None:
-            self.id = id #: The current instance identity
+            self.id = id  #: The current instance identity
         else:
             Base.__nb_objects += 1
             self.id = Base.__nb_objects
@@ -151,8 +151,7 @@ class Base:
                 list_dicts = csv.DictReader(csvfile,
                                             fieldnames=fieldnames)
                 list_dicts = [dict([key, int(value)] for key,
-                                                value in dic.items())
-                              for dic in list_dicts]
+                    value in dic.items()) for dic in list_dicts]
                 return [cls.create(**dic) for dic in list_dicts]
         except IOError:
             return []
