@@ -6,6 +6,7 @@ A function that import Base from models.base
 
 from models.base import Base
 
+
 if __name__ == "__main__":
     
     b1 = Base()
