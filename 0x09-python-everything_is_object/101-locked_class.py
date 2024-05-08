@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Define a 'LockedClass'."""
 
+
 class LockedClass:
     """
     This LockedClass prevent user from creating a new
