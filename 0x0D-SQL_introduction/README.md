@@ -1,0 +1,1 @@
+This folder contains details practice projects on database and database management, which is an essential knowledge for an aspiring Software Engineer. The primary focus of this project is SQL but the knowledge can be applied to other database management tools.
