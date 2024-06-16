@@ -1,1 +1,2 @@
-VimCrypt~03!aIwL¬)¹.)“ÇÃí"P“#¶»L–-ÎJ p\aF)Å’®œáÆÓ§ÀZR_ô‹iT/ÌRƒø8*WÎŸœ|‹/dìqó–ó(­%»
+-- A script that list all databases of MYSQL server
+SHOW DATABASES
