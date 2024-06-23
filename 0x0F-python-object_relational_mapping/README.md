@@ -1,0 +1,1 @@
+Object relational mapping is an essential knowledge for an aspiring full stack software engineer. This project tasks enable an aspiing software engineer training under the ALX SE programme develop the requiste skills in using object relational mapping for applications development. It features Python, OOP, SQL, MySQL, ORM and SQLAlchemy
