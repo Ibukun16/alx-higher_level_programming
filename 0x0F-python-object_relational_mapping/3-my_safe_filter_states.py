@@ -14,7 +14,7 @@ if __name__ == "__main__":
     cur = db.cusor()
     item = sys.argv[4]
     cur.execute("""SELECT * FROM states WHERE name LIKE %s
-                ORDER by states.id ASC""", (item, ))
+                ORDER BY states.id ASC""", (item, ))
     rows = cur.fetchall()
     for r in rows:
         print(r)
