@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
 A script that takes in an argument and displays all values in states table
 of the database hbtn_0e_0_usa where name matches the argument.
