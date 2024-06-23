@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 """
 A script that lists all states from the hbtn_0e_0_usa database.
-This script takes 3 arguments, uses the MySQLdb module and connect to MySQL server.
+
+This script takes 3 arguments, uses the MySQLdb module,
+and connect to MySQL server.
 Result from the script sorted in ascending order by states.id.
 """
 import MySQLdb
