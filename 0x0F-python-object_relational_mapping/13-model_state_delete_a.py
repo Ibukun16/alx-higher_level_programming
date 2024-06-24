@@ -13,12 +13,12 @@ if __name__ == "__main__":
     password = argv[2]
     database = argv[3]
     engine = create_engine('mysql+mysqldb://{}:{}@localhost:3306/{}'
-                           .format(username, password, database),
-                           pool_pre_ping=True)
+                           .format(username, password, database))
     Base.metadata.create_all(engine)
     Session = sessionmaker(bind=engine)
     session = Session()
     for state in session.query(State).filter(State.name.like('%a%')).all():
-        session.delete(state)
+        if state is not None:
+            session.delete(state)
     session.commit()
     session.close()
