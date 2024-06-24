@@ -15,7 +15,7 @@ if __name__ == "__main__":
                 states.id=cities.state_id WHERE states.name LIKE %s ORDER
                 BY cities.id ASC""", (sys.argv[4],))
     rows = cur.fetchall()
-    hold = lists(r[0] for r in rows)
+    hold = list(r[0] for r in rows)
     print(*hold, sep=", ")
     cur.close()
     db.close()
