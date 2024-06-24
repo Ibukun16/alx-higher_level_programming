@@ -3,8 +3,8 @@
 A python file that contains class definition of a State and an instance
 Base as an instance of declarative_base().
 """
-from sqalchemy import Column, Integer, String, MetaDatai
-from sqalchemy.ext.declarative import declarative_base
+from sqlalchemy import Column, Integer, String, MetaDatai
+from sqlalchemy.ext.declarative import declarative_base
 
 mymetadata = MetaData()
 Base = declarative_base(metadata=mymetadata)
