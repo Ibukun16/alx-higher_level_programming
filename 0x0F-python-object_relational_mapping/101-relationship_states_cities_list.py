@@ -27,4 +27,3 @@ if __name__ == "__main__":
         for inst_city in instance.cities:
             print("     ", end="")
             print(inst_city.id, inst_city.name, sep=": ")
-    session.close()
