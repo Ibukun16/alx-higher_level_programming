@@ -23,7 +23,7 @@ if __name__ == "__main__":
     Session = sessionmaker(bind=engine)
     session = Session()
     for instance in session.query(State).order_by(State.id).all():
-        print(f"{inst.id}: {inst.name}")
+        print(f"{instance.id}: {instance.name}")
         for inst_city in instance.cities:
             print("     ", end="")
             print(f"{inst_city.id}: {inst_city.name}")
