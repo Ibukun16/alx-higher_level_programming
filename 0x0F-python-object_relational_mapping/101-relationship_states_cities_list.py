@@ -24,7 +24,7 @@ if __name__ == "__main__":
     session = Session()
     instance = session.query(State).order_by(State.id).all()
     for inst in instance:
-        print(f"{inst.id}, {inst.name}")
+        print(f"{inst.id}: {inst.name}")
         for ins_city in inst.cities:
             print(f"    {ins_city.id}: {ins_city.name}")
     session.close()
