@@ -7,7 +7,7 @@ from sqlalchemy import Column, Integer, String, ForeignKey
 from sqlalchemy.ext.declarative import declarative_base
 
 
-class City(base):
+class City(Base):
     """
     A class that defines the attributes of each city
     """
