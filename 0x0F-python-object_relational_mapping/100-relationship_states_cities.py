@@ -1,10 +1,11 @@
 #!/usr/bin/python3
 """
-A script that prints all City objects from the database hbtn_0e_14_usa
+A script that creates the State "California" with the city "San Francisco"
+from the database hbtn_0e_100_usa.
 """
 import sys
-from model_state import Base, State
-from model_city import City
+from relationship_state import Base, State
+from relationship_city import City
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
@@ -16,9 +17,10 @@ if __name__ == "__main__":
     Base.metadata.create_all(engine)
     Session = sessionmaker(bind=engine)
     session = Session()
-    instance = session.query(State, City).filter(State.id == City.state_id)\
-        .order_by(City.id).all()
-    for s, c in instance:
-        print(f"{s.name}: ({c.id}) {c.name}")
+    stateupdate = State(name='California')
+    cityupdate = City(name='San Francisco')
+    stateupdate.cities.append(cityupdate)
+    session.add(stateupdate)
+    session.add(updatecity)
     session.commit()
     session.close()
