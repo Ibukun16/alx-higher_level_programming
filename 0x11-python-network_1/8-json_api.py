@@ -9,19 +9,15 @@ import requests
 
 if __name__ == "__main__":
     url = "http://0.0.0.0:5000/search_user"
+    letter = sys.argv[1] if len(sys.argv) > 1 else ""
 
-    try:
-        arg = sys.argv[1]
-    except Exception:
-        arg = ""
-        q = {"q": arg}
+    q = {"q": letter}
     quest = requests.post(url, data=q)
     try:
         response = quest.json()
-    except Exception:
+        if response:
+            print(f"[{response['id']}] {response['name']}")
+        else:
+            print("No result")
+    except ValueError:
         print("Not a valid JSON")
-        exit()
-    try:
-        print(f"[{response["id"]}] {response["name"]}")
-    except Exception:
-        print("No result")
