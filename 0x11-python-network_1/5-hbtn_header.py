@@ -1,8 +1,7 @@
-#!usr/bin/python3
-""" A python script that:
-- takes in a URL,
-- sends a request to the URL and
-- displays the value of the variable X-Request-Id in the response header
+#!/usr/bin/python3
+""" 
+A python script that takes in a URL,
+and displays the value of the variable X-Request-Id in the response header
 """
 import sys
 import requests
@@ -11,5 +10,5 @@ import requests
 if __name__ == "__main__":
     url = sys.argv[1]
 
-    quest = requests.get(url)
-    print(quest.headers.get("X-Request-Id"))
+    request = requests.get(url)
+    print(request.headers.get("X-Request-Id"))
