@@ -8,16 +8,20 @@ import requests
 
 
 if __name__ == "__main__":
-    letter = "" if len(sys.argv) == 1 else sys.argv[1]
-    payload = {"q": letter}
     url = "http://0.0.0.0:5000/search_user"
 
-    quest = requests.post(url, data=payload)
+    try:
+        arg = sys.argv[1]
+    except Exception:
+        arg = ""
+        q = {"q": arg}
+    quest = requests.post(url, data=q)
     try:
         response = quest.json()
-        if response == {}:
-            print("No result")
-        else:
-            print("[{}] {}".format(reponse.get("id"), response.get("name")))
-    except ValueError:
+    except Exception:
         print("Not a valid JSON")
+        exit()
+    try:
+        print(f"[{response["id"]}] {response["name"]}")
+    except Exception:
+        print("No result")
