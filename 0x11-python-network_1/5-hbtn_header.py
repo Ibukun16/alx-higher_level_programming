@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" 
+"""
 A python script that takes in a URL,
 and displays the value of the variable X-Request-Id in the response header
 """
