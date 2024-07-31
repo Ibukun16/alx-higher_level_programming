@@ -6,7 +6,7 @@ request(process.argv[2], function (error, response, body) {
     console.log(results.reduce((n, movie) => {
       return movie.characters.find((character) => character.endsWith('/18/'))
         ? ++n
-	: n;
+        : n;
     }, 0));
   }
 });
