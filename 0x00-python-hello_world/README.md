@@ -1,0 +1,1 @@
+Python hello world repository contains practice exercises on the use oif python. Python is an important and versatile high level programming language. This skill is essential for a fullstack software engineer.
