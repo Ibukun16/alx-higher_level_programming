@@ -3,4 +3,7 @@
 
 
 for n in range(0, 100):
-    print("{}".format(n:02), end=", " if n < 99 else "\n")
+    if n == 99:
+        print("{}".format(n))
+    else:
+        print("{:02}".format(n), end=", ")

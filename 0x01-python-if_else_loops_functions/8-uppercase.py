@@ -1,9 +1,10 @@
 #!/usr/bin/python3
+"""Print upper case alphabet"""
+
+
 def uppercase(str):
-    output = ""
-    for s in str:
-        if 97 <= ord(s) <= 122:
-            output += chr(ord(s) - 32)
-        else:
-            output += s
-    print(output)
+    for c in str:
+        if 97 <= ord(c) <= 122:
+            c = chr(ord(c) - 32)
+        print("{}".format(c), end="")
+    print()

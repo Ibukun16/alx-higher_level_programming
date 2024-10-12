@@ -1,4 +1,13 @@
 #!/usr/bin/python3
-for n in range(10):
+"""
+Print numbers between 1 to 100 without
+repition of digits
+"""
+
+
+for n in range(0, 10):
     for x in range(n + 1, 10):
-        print(f"{n}{x}", end=", " if n < 8 or (n == 8 and x < 9) else "\n")
+        if n == 8 and x == 9:
+            print("{}{}".format(n, x))
+        else:
+            print("{}{}".format(n, x), end=", ")
